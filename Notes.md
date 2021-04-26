@@ -16,3 +16,10 @@
 
 # Future features
 - other wagers like first horse out the gate
+
+
+
+
+# Notes
+- use DeckofCards API to get cards 1 time
+- can get the cards useEffect when page loads
