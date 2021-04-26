@@ -1,22 +1,18 @@
 import './App.css';
-import Track from './components/Track'
-import Wagers from './components/Wagers'
-
-const defHandStyle = {
-  maxHeight:'34vh',
-  minHeight:'34vh',
-  
-  maxWidth:'100vw',
-  padding: 0,
-};
-
+import GamePage from './components/GamePage'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Horse Race</h1>
-      <Track />
-      <Wagers />
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <GamePage />
+          </Route>
+        </Switch>
+      </Router>
+      
     </div>
   );
 }
