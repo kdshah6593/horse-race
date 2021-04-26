@@ -6,13 +6,13 @@ const GamePage = () => {
     const [deck, setDeck] = useState({});
     const [deckOfCards, setDeckOfCards] = useState([]);
 
-    useEffect(() =>{
+    useEffect(() => {
         fetch("https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1")
         .then(response => response.json())
         .then(data => {
             console.log(data);
         })
-    })
+    }, [])
     
     
     return (
@@ -20,6 +20,7 @@ const GamePage = () => {
             <h1>Horse Race</h1>
             <Track />
             <Wagers />
+            {deck.deck_id}
         </div>
     )
 }
