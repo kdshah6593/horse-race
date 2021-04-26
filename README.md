@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Horse Race
+This project is currently in development. It will be a web version of the popular drinking game Horserace
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
