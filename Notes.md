@@ -23,3 +23,8 @@
 # Notes
 - use DeckofCards API to get cards 1 time
 - can get the cards useEffect when page loads
+
+
+# React Game Engine
+- https://github.com/bberak/react-game-engine
+- https://medium.com/swlh/building-games-with-react-redux-5c88f94e52fd

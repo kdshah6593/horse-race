@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Track from './Track'
-import Wagers from './Wagers'
+import Track from './Track';
+import Wagers from './Wagers';
+import Game from './Game';
 
 const GamePage = () => {
     const [deck, setDeck] = useState({});
@@ -21,6 +22,8 @@ const GamePage = () => {
             <Track />
             <Wagers />
             {deck.deck_id}
+
+            <Game />
         </div>
     )
 }
